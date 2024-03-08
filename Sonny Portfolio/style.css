@@ -428,6 +428,7 @@ span{
     margin-bottom: 20px;
     width: 200px;
     height:200px;
+    display: inline-table;
 }
 
 .v2-box2{
@@ -437,6 +438,7 @@ span{
     margin-bottom: 20px;
     width: 200px;
     height: 100px;
+    display: inline-table;
 }
 
 
