@@ -44,21 +44,23 @@ header{
     display: flex;
     align-items: center;
     justify-content:space-between;
-    padding: 20px 20%;
-    transition: 0.5s;
+    padding: 10px 20%;
+    background-color: inherit;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .logo img{
     width:200px;
     height: auto;
-    max-width: auto;
+    max-width: 150px;
 }
 
 
 
 .navlist{
-    display: flex;
+    display: none;
     padding-left: 50px;
+    flex-direction: column;
 
 }
 
@@ -71,8 +73,11 @@ header{
     font-size: 28px;
     color: rgb(15, 52, 104);
     font-weight: 600;
-    padding: 20px 30px;
+    padding: 5px 5px;
     text-decoration: none;
+    text-align: center;
+    display: block;
+
 }
 
 .navlist li::after{
@@ -95,7 +100,7 @@ header{
     font-size: 30px;
     color: black;
     cursor: pointer;
-    z-index: 2;
+    display: block;
 
 }
 
@@ -122,7 +127,25 @@ transition: ease-in-out 5s;
 font-weight: 500;
 }
 
+/* menubtn */
 
+@media screen and (min-width: 768px) {
+    .navlist {
+        display: flex;
+        align-items: center;
+    }
+
+    #menu-icon {
+        display: none; 
+    }
+
+    .navlist a {
+        padding: 0 20px;
+    }
+}
+#menu-icon:checked + .navlist {
+    display: flex;
+}
 
 
 /* section */
