@@ -6,10 +6,6 @@
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
-   
-  
-
-    
 
     
 }
@@ -17,13 +13,6 @@
 
 :root{
     background-color: white;
-   
-
- 
-  
-
-
-
 
 }
 
@@ -60,7 +49,7 @@ header{
 .navlist{
     display: none;
     padding-left: 50px;
-    flex-direction: column;
+    flex-direction: row;
 
 }
 
@@ -333,14 +322,6 @@ span{
     color: #0097b2;
 }
 
-
-.about-img img{
-    max-width: 100%;
-    width: 600px;
-    height: auto;
-
-
-}
 
 
 .About-text h3{
