@@ -116,6 +116,14 @@ transition: ease-in-out 5s;
 font-weight: 500;
 }
 
+.about{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
 /* menubtn */
 
 @media screen and (min-width: 768px) {
