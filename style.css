@@ -84,13 +84,6 @@ header{
 
 }
 
-#menu-icon{
-    font-size: 30px;
-    color: black;
-    cursor: pointer;
-    display: block;
-
-}
 
 .top-btn{
 display: inline-block;
@@ -123,36 +116,6 @@ font-weight: 500;
 
 }
 
-/* menubtn */
-
-/* Mobile Navigation */
-@media screen and (max-width: 768px) {
-    .navlist {
-        display: none;
-        flex-direction: column;
-        position: absolute;
-        top: 100%; 
-        left: 0;
-        width: 100%; 
-        background-color: whitesmoke;
-        padding: 10px 0;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-        z-index: 1000; 
-    }
-
-    .navlist li {
-        padding: 10px 0;
-    }
-
-    .navlist a {
-        font-size: 22px; 
-    }
-}
-
-/* Show navigation list when menu icon is checked */
-#menu-icon:checked + .navlist {
-    display: flex;
-}
 
 
 
@@ -492,6 +455,8 @@ footer{
     padding: 20px;
 
 }
+
+
 .name{
     font-size: 24px;
     color: rgb(15, 52, 104);
@@ -504,6 +469,11 @@ footer{
     color: rgb(15, 52, 104);
     font-weight: 500;
     display: block;
+}
+
+/*mobile*/
+@media screen and (max-width:480px) {
+    
 }
 
 
