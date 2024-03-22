@@ -29,7 +29,7 @@ header{
     width: 100%;
     top:0;
     right:0;
-    z-index: 1000;
+    z-index: 1;
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -218,7 +218,7 @@ span{
 
 }
 
-.btn{
+.About Me button{
     display: inline-block;
     color: black;
     background: whitesmoke;
@@ -233,10 +233,10 @@ span{
    
 
 }
-.btn:hover{
+AboutMebutton:hover{
     transform: scale(1.2);
     background: #0097b2;
-    transition: ease-in-out 6s;
+    transition: ease-in-out 6
 }
 
 
