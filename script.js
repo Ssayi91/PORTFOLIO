@@ -1,17 +1,17 @@
 document.addEventListener("DOMContentLoaded", function () {
   
-    var AboutMebutton = document.getElementById("seeMoreButton");
-    var gallery = document.getElementById("gallery");
+    var aboutme = document.getElementById("aboutme");
+    var AboutMeButton=document.getElementById(aboutme);
 
     // Add click event listener to the button
     AboutMebutton.addEventListener("click", function () {
         
-        if (gallery.style.display === "none") {
-            gallery.style.display = "block";
-            seeMoreButton.textContent = "See Less"; 
+        if (aboutme.style.display === "none")   {
+            aboutme.style.display = "block";
+            AboutMeButton.textContent = "hide"; 
         } else {
-            gallery.style.display = "none";
-            seeMoreButton.textContent = "See More";
+            aboutme.style.display = "none";
+            AboutMeButton.textContent = "About Me";
         }
     });
 });

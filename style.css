@@ -218,7 +218,7 @@ span{
 
 }
 
-.About Me button{
+.aboutme{
     display: inline-block;
     color: black;
     background: whitesmoke;
@@ -233,7 +233,7 @@ span{
    
 
 }
-AboutMebutton:hover{
+.aboutme:hover{
     transform: scale(1.2);
     background: #0097b2;
     transition: ease-in-out 6
