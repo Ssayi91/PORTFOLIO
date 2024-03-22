@@ -218,7 +218,7 @@ span{
 
 }
 
-.aboutme{
+#AboutMebutton{
     display: inline-block;
     color: black;
     background: whitesmoke;
@@ -228,15 +228,23 @@ span{
     line-height: 25px;
     border: 3px solid rgb(15, 52, 104);
     border-radius: 30px;
-    transition: ease-in-out 5s;
+    transition: ease-in-out 3s;
    
    
 
 }
-.aboutme:hover{
+#AboutMebutton:hover{
     transform: scale(1.2);
     background: #0097b2;
-    transition: ease-in-out 6
+    transition: ease-in-out 3s;
+}
+
+#aboutme p{
+    padding-top: 5px;
+    font-size: 26px;
+    font-weight: 550;
+    display: flex;
+
 }
 
 
@@ -351,7 +359,7 @@ span{
 
 }
 
-.btn-Email{
+.btn-email{
     display: inline-block;
     color: black;
     background: whitesmoke;
@@ -359,16 +367,17 @@ span{
     padding: 20px 40px;
     font-weight: 500;
     line-height: 25px;
-    border: 3px solid #0097b2;
+    border: 3px solid rgb(15, 52, 104);
     border-radius: 30px;
+    transition: ease-in-out 2s;
    
    
 
 }
-.btn:hover{
+.btn-email:hover{
     transform: scale(1.2);
     background: #0097b2;
-    transition: ease-in-out 6s;
+    transition: ease-in-out 3s;
 }
 
 
