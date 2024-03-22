@@ -47,10 +47,9 @@ header{
 
 
 .navlist{
-    display: none;
+    display: flex;
     padding-left: 50px;
     flex-direction: row;
-
 }
 
 .navlist li{
@@ -126,23 +125,35 @@ font-weight: 500;
 
 /* menubtn */
 
-@media screen and (min-width: 768px) {
+/* Mobile Navigation */
+@media screen and (max-width: 768px) {
     .navlist {
-        display: flex;
-        align-items: center;
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%; 
+        left: 0;
+        width: 100%; 
+        background-color: whitesmoke;
+        padding: 10px 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        z-index: 1000; 
     }
 
-    #menu-icon {
-        display: none; 
+    .navlist li {
+        padding: 10px 0;
     }
 
     .navlist a {
-        padding: 0 20px;
+        font-size: 22px; 
     }
 }
+
+/* Show navigation list when menu icon is checked */
 #menu-icon:checked + .navlist {
     display: flex;
 }
+
 
 
 /* section */
