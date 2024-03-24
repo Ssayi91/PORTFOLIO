@@ -486,6 +486,7 @@ footer{
     display: block;
     color: rgb(15, 52, 104);
     cursor: pointer;
+    padding-left: 30px;
 }
     
 }
