@@ -41,8 +41,16 @@ header{
 .logo img{
     width:200px;
     height: auto;
-    max-width: 150px;
+    max-width: 160px;
 }
+
+.menudrp i{
+    display: block;
+    color: rgb(15, 52, 104); 
+    cursor: pointer;
+
+}
+
 
 
 
@@ -203,6 +211,7 @@ span{
     border: 3px solid rgb(15, 52, 104);
     border-radius: 30px;
     transition: ease-in-out 3s;
+    cursor: pointer;
    
    
 
@@ -473,6 +482,11 @@ footer{
 
 /*mobile*/
 @media screen and (max-width:480px) {
+.menudrp i{
+    display: block;
+    color: rgb(15, 52, 104);
+    cursor: pointer;
+}
     
 }
 
