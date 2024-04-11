@@ -154,6 +154,7 @@ section{
 }
 .home-text h1{
     margin: 10px 0px 25px;
+    font-family: monospace;
     font-size: 50px;
     line-height: 2;
     font-weight: 800;
@@ -223,7 +224,7 @@ span{
 }
 
 #aboutme p{
-    padding-top: 5px;
+    padding-top: 20px;
     font-size: 26px;
     font-weight: 550;
     text-align: left;
@@ -487,6 +488,11 @@ footer{
     color: rgb(15, 52, 104);
     cursor: pointer;
     padding-left: 30px;
+}
+
+.navlist{
+    overflow: hidden;
+    height: 0;
 }
     
 }
