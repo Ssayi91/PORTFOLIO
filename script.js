@@ -24,3 +24,8 @@ function hideSidebar(){
     var sidebar = document.querySelector('.sidebar');
     sidebar.style.display = 'none';
 }
+
+document.getElementById("showDesignsBtn").addEventListener("click", function() {
+    var designsContainer = document.getElementById("designsContainer");
+    designsContainer.style.display = (designsContainer.style.display === "none") ? "block" : "none";
+});

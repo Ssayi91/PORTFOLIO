@@ -361,7 +361,7 @@ span{
 }
 
 .About h2{
-    margin-bottom: 20px;
+    margin-bottom: 28px;
     font-weight: 800;
     font-size:50px;
     line-height: 2;
@@ -375,14 +375,14 @@ span{
     color: black;
     margin-right: 22px;
     margin-bottom: 30px;
-    font-size: 28px;
+    font-size: 26px;
     padding-top: 20px;
     font-weight: 600;;
 }
 
 .About-text p{
     font-size: 22px;
-    font-weight: 200;
+    font-weight: 700;
     text-transform: capitalize;
     margin-bottom: 28px;
     line-height: 2;
@@ -460,12 +460,17 @@ span{
 }
 
 .Experience p{
-    font-size: 22px;
-    font-weight: 300;
+    font-size: 24px;
+    font-weight: 600;
     text-transform: capitalize;
     margin-bottom: 28px;
     line-height: 2;
     display: block;
+}
+.Experience li span{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: capitalize;
 }
 
 .Experience a{
@@ -518,6 +523,43 @@ span{
     color: rgb(15, 52, 104);
     justify-content: space-between;
     
+}
+
+#showDesignsBtn{
+    display: inline-block;
+    color: black;
+    background: whitesmoke;
+    font-size: 24px;
+    padding: 10px 15px;
+    font-weight: 700;
+    line-height: 25px;
+    border: 3px solid rgb(15, 52, 104);
+    border-radius: 30px;
+    transition: ease-in-out 3s;
+    cursor: pointer;
+}
+#showDesignsBtn:hover{
+    transform: scale(1.2);
+    background: #0097b2;
+    transition: ease-in-out 3s;
+}
+
+#designsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#designsContainer img{
+    width: 200px;
+    height: auto;
+    margin: 10px;
+    border-radius: 5px;
+    transition: transform 3s ease-in-out;
+}
+
+#designsContainer img:hover{
+    transform: scale(1.1);
 }
 
 footer{
