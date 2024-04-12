@@ -15,11 +15,3 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 });
-
-// Toggle the visibility of the navigation menu on mobile
-const menuToggle = document.querySelector('.menu-toggle input');
-const navList = document.querySelector('.navlist');
-
-menuToggle.addEventListener('click', function() {
-    navList.classList.toggle('slide');
-});
