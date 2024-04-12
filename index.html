@@ -12,7 +12,7 @@
 <body>
         <nav>
             <ul class="sidebar">
-                <li><a href="#">Sonny <span> Sayi</span> </a></li>
+                <li onclick=hideSidebar()><a href="#"><i class="fa-solid fa-xmark"></i></a></li>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#skills">Skills</a></li>
                 <li><a href="#About">About</a></li>
@@ -20,11 +20,13 @@
             </ul>
         <ul>
             <li><a href="#">Sonny <span> Sayi</span> </a></li>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#About">About</a></li>
-            <li><a href="#Experience">Experience</a></li>
+            <li class="hideOnMobile"><a href="#home">Home</a></li>
+            <li class="hideOnMobile"><a href="#skills">Skills</a></li>
+            <li class="hideOnMobile"><a href="#About">About</a></li>
+            <li class="hideOnMobile"><a href="#Experience">Experience</a></li>
+            <li onclick=showSidebar()><a href="#"><i class="fa-solid fa-bars"></i></a></li>
         </ul>
+        
         <a href="#" class="top-btn">Download CV</a>
         </nav>
 
