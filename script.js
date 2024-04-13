@@ -29,3 +29,8 @@ document.getElementById("showDesignsBtn").addEventListener("click", function() {
     var designsContainer = document.getElementById("designsContainer");
     designsContainer.style.display = (designsContainer.style.display === "none") ? "block" : "none";
 });
+
+document.getElementById("seeDesignsBtn").addEventListener("click", function() {
+    var designsContainer = document.getElementById("designContainer");
+    designsContainer.style.display = (designContainer.style.display === "none") ? "block" : "none";
+});
