@@ -1,5 +1,5 @@
 *{
-    padding:0px;
+    padding:0;
     margin: 0;
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
@@ -17,9 +17,18 @@
 }
 
 .body{
+    font-family: 'Courier New', monospace;
+    font-size: 12px;
     background-color: azure;
     color: lightcyan;
+    padding:0;
+    margin: 0;
     min-height: 100vh;    
+}
+
+.container{
+    width: 100%;
+    margin: 0 auto;
 }
 
 .logo img{
@@ -106,7 +115,7 @@ nav li:first-child{
 .sidebar a{
     width: 100%;
 }
-@media (max-width:700px){
+@media (max-width:768px){
     .hideOnMobile{
         display:none;
     }
@@ -133,11 +142,34 @@ font-weight: 500;
 }
 
 /* Mobile styles */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 768px) {
+
+    .container{
+        width:100%;
+    }
     .menu-toggle {
         display: block;
         cursor: pointer;
     }
+    .nav-links {
+        display: none; /* Hide regular navigation links */
+    }
+    .nav-links.active {
+        display: flex; /* Show navigation links when active */
+        flex-direction: column;
+        position: absolute;
+        background-color: #333;
+        top: 80px;
+        right: 0;
+        width: 100%;
+    }
+
+    .nav-links.active li {
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+
 
     .navlist {
         display: none;
@@ -171,7 +203,7 @@ font-weight: 500;
     .menu-toggle input:checked ~ .navlist {
         display: block;
     }
-}
+
 
 .about{
     display: flex;
