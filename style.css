@@ -106,12 +106,7 @@ nav li:first-child{
 .sidebar a{
     width: 100%;
 }
-@media (max-width:700px){
-    .hideOnMobile{
-        display:none;
-    }
-    
-}
+
 
 .top-btn{
 display: inline-block;
@@ -540,7 +535,6 @@ span{
 
 
 .list-inline-item{
-    display: inline-block;
     text-align: left;
     color: rgb(15, 52, 104);
     justify-content: space-between;
@@ -637,27 +631,30 @@ span{
 
 footer{
     text-align: center;
-    background: url(./Assets/Img/background.png);
+    background:whitesmoke;
+    border: 2px solid darkgrey;
+
 }
 
 
 .name{
-    font-size: 30px;
+    font-size: 22px;
     font-family: monospace;
-    color: rgb(15, 52, 104);
+    color:rgb(15, 52, 104);
     font-weight: 700;
+    
     display: block;
 }
 
 .copy{
-    font-size: 28px;
+    font-size: 22px;
     color: rgb(15, 52, 104);
     font-weight: 700;
-    display: block;
+
 }
 
 /*mobile*/
-@media screen and (max-width:480px) {
+@media (max-width: 768px) {
 .menudrp i{
     display: block;
     color: rgb(15, 52, 104);
@@ -669,6 +666,16 @@ footer{
     overflow: hidden;
     height: 0;
 }
+#Certifications{
+    display: block;
+    font-size: medium;
+}
+    
+}
+@media (max-width:768px){
+    .hideOnMobile{
+        display:none;
+    }
     
 }
 
