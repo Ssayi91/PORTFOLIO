@@ -707,9 +707,14 @@ footer{
     overflow: hidden;
     height: 0;
 }
+.body{
+    display: block;
+    overflow: hidden;
+}
 #Certifications{
     display: block;
     font-size: medium;
+    overflow: hidden;
 }
     
 }
