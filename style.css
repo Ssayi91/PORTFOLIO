@@ -115,17 +115,6 @@ nav li:first-child{
 .sidebar a{
     width: 100%;
 }
-<<<<<<< HEAD
-
-=======
-@media (max-width:768px){
-    .hideOnMobile{
-        display:none;
-    }
-    
-}
->>>>>>> 0e3ebe74d45c46434f3c5b03aa62785dde26381d
-
 .top-btn{
 display: inline-block;
 padding: 10px 20px;
@@ -714,6 +703,15 @@ footer{
 #Certifications{
     display: block;
     overflow: hidden;
+    text-align: center;
+
+}
+.Certifications h3{
+    font-size: 30px;
+}
+footer{
+    text-align: center;
+
 }
     
 }
