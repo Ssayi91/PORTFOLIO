@@ -65,7 +65,7 @@ nav li span{
 .logo1 a {
     color: #0097b2;
     font-weight: 700;
-    font-size: 30px;
+    font-size: 28px;
     font-family: monospace; 
     padding: 20px;
 
@@ -116,7 +116,7 @@ nav li:first-child{
 }
 .top-btn{
 display: inline-block;
-padding: 10px 20px;
+padding: 10px 15px;
 background: transparent;
 color: black;
 letter-spacing: 1px;
@@ -245,7 +245,7 @@ span{
     justify-content: center;
     margin-right: 22px;
     margin-bottom: 30px;
-    font-size: 25px;
+    font-size: 20px;
     transition: ease-in-out 5s;
 }
 
@@ -264,7 +264,7 @@ span{
     font-family: monospace;
     font-size: 20px;
     font-weight: 600;
-    padding: 20px 40px;
+    padding: 20px 20px;
     font-weight: 500;
     line-height: 25px;
     border: 3px solid rgb(15, 52, 104);
@@ -325,7 +325,7 @@ span{
     justify-content: center;
     margin-right: 22px;
     margin-bottom: 30px;
-    font-size: 28px;
+    font-size: 18px;
     padding-top: 20px;
     font-weight: 600;
 
