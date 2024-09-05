@@ -18,7 +18,6 @@
 
 .body{
     font-family: 'Courier New', monospace;
-    font-size: 12px;
     background-color: azure;
     color: lightcyan;
     padding:0;
@@ -66,7 +65,7 @@ nav li span{
 .logo1 a {
     color: #0097b2;
     font-weight: 700;
-    font-size: 40px;
+    font-size: 30px;
     font-family: monospace; 
     padding: 20px;
 
@@ -83,7 +82,7 @@ nav a{
    align-items: center;
    color: #0097b2; 
    font-family: monospace;
-   font-size: 26px;
+   font-size: 20px;
    font-weight: 700;
 }
 nav a:hover{
@@ -212,7 +211,7 @@ section{
 .home-text h1{
     margin: 10px 0px 25px;
     font-family: monospace;
-    font-size: 50px;
+    font-size: 20px;
     line-height: 2;
     font-weight: 800;
     color:#0097b2;
@@ -221,7 +220,7 @@ section{
 
 .home-text p{
     margin-bottom: 20px;
-    font-size: 28px;
+    font-size: 16px;
     font-weight: 600;
     line-height: 28px;
     margin-bottom: 30px;
@@ -263,7 +262,7 @@ span{
     color: black;
     background: whitesmoke;
     font-family: monospace;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     padding: 20px 40px;
     font-weight: 500;
@@ -285,7 +284,7 @@ span{
 
 #aboutme p{
     padding-top: 20px;
-    font-size: 26px;
+    font-size: 18px;
     font-weight: 550;
     text-align: left;
 
@@ -310,7 +309,7 @@ span{
 #skills h1 {
     margin-bottom: 20px;
     font-weight: 800;
-    font-size:50px;
+    font-size:20px;
     line-height: 2;
 }
 
@@ -377,7 +376,7 @@ span{
 .About h2{
     margin-bottom: 28px;
     font-weight: 800;
-    font-size:50px;
+    font-size:20px;
     line-height: 2;
     color: #0097b2;
 }
@@ -389,13 +388,13 @@ span{
     color: black;
     margin-right: 22px;
     margin-bottom: 30px;
-    font-size: 26px;
+    font-size: 18px;
     padding-top: 20px;
     font-weight: 600;;
 }
 
 .About-text p{
-    font-size: 22px;
+    font-size: 16px;
     font-weight: 700;
     text-transform: capitalize;
     margin-bottom: 28px;
@@ -407,7 +406,7 @@ span{
     display: inline-block;
     color: black;
     background: whitesmoke;
-    font-size: 24px;
+    font-size: 20px;
     padding: 20px 40px;
     font-weight: 500;
     line-height: 25px;
@@ -447,7 +446,7 @@ span{
 
 .Experience h3{
     margin-bottom: 30px;
-    font-size: 50px;
+    font-size: 20px;
     line-height: 2;
     font-weight: 800;
     color: #0097b2;
@@ -457,7 +456,7 @@ span{
     color: black;
     font-family:monospace;
     font-weight:700;
-    font-size: 30px;
+    font-size: 18px;
     padding-bottom: 5px;
     line-height: 2;
     text-transform: capitalize;
@@ -465,7 +464,7 @@ span{
 
 .Experience h4{
     margin: 10px 0px 25px;
-    font-size: 30px;
+    font-size: 20px;
     font-family: monospace;
     line-height: 2;
     font-weight: 600;
@@ -473,7 +472,7 @@ span{
 }
 
 .Experience p{
-    font-size: 24px;
+    font-size: 18px;
     font-weight: 600;
     text-transform: capitalize;
     margin-bottom: 28px;
@@ -481,7 +480,7 @@ span{
     display: block;
 }
 .Experience li span{
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
 }
@@ -491,13 +490,13 @@ span{
     text-transform: none;
     color: rgb(15, 52, 104);
     font-weight: 500;
-    font-size: 28px;
+    font-size: 20px;
 }
 #seeDesignsBtn{
     display: inline-block;
     color: black;
     background: whitesmoke;
-    font-size: 24px;
+    font-size: 20px;
     padding: 10px 15px;
     font-weight: 700;
     line-height: 25px;
@@ -544,7 +543,7 @@ span{
     display: inline-block;
     color: black;
     background: whitesmoke;
-    font-size: 24px;
+    font-size: 20px;
     padding: 10px 15px;
     font-weight: 700;
     line-height: 25px;
@@ -577,22 +576,10 @@ span{
 #designsContainer img:hover{
     transform: scale(1.1);
 }
-/* projects */
-#projects{
-    font-size: inherit;
-    top: 20px;
-    text-align: left;
-}
 
-.projects h3{
-    font-size: 50px;
-    font-weight: 800;
-    color: #0097b2;
-    
-}
 /* Certifications */
 #Certifications{
-    font-size: inherit;
+    font-size: 20px;
     padding: 20px;
     padding-top: 20px;
     grid-gap: 2rem;
@@ -611,7 +598,7 @@ span{
 }
 
 .Certifications h3{
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     font-size: 50px;
     line-height: 2;
     font-weight: 800;
@@ -634,7 +621,7 @@ span{
 
 }
 .Certifications p{
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 600;
     text-transform: capitalize;
     line-height: 2;
@@ -713,7 +700,6 @@ footer{
 #Certifications{
     display: block;
     overflow: hidden;
-    text-align: center;
 
 }
 .Certifications h3{
